@@ -1,1 +1,0 @@
-<view class="_div data-v-27eb77e6"><view data-event-opts="{{[['tap',[['maskClick',['$event']]]]]}}" class="{{['_div data-v-27eb77e6',(showCustomPopup)?'CustomPopup':'']}}" bindtap="__e"></view><view class="{{['CustomPopupContent _div data-v-27eb77e6',(showCustomPopup)?'CustomPopupContentShow':'']}}"><slot name="bottom-top-panel"></slot></view></view>
