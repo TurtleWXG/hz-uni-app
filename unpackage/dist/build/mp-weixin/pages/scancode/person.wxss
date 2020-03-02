@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 新定义文字尺寸 */
+/* 新定义文字颜色 */
+/* 新定背景颜色 */
+page {
+  background: #efefef;
+  height: 100%;
+}
+page .person-box {
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+page .person-box view {
+      margin-bottom: 15px;
+}
+page .person-box .name {
+      font-size: 36rpx;
+      font-weight: 500;
+}
+page .person-box .sex, page .person-box .cert {
+      color: #999;
+}
+page .person-box .sex text:first-child, page .person-box .cert text:first-child {
+        margin-right: 10px;
+}
+page .person-box .btn-box {
+      text-align: center;
+      margin-bottom: 0;
+}
+page .person-box .btn-box view {
+        display: inline-block;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 70px;
+        color: #fff;
+}
+page .person-box .btn-blue view {
+      background-color: #87f50a;
+}
+page .person-box .btn-red view {
+      background-color: #fb3606;
+}
+page .person-box .btn-explain {
+      color: #fc5636;
+}
+page .house-addr {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+page .house-addr .label {
+      text-align: left;
+      min-width: calc(4em + 15px);
+}
+page .house-addr .info {
+      margin-right: 10px;
+      color: #666;
+}
+page .house-addr .input-info {
+      width: 50px;
+}
+page .pass-box {
+    margin-top: 20px;
+}
+page .pass-box .pass-info {
+      padding: 10px 20px;
+      color: #f67650;
+}
+page .nopass-box {
+    margin-top: 20px;
+}
+page .nopass-box .pass-info {
+      padding: 10px 20px;
+      color: #f67650;
+}
+page .submit-btn {
+    height: 50px;
+    margin: 50px 20px;
+    line-height: 50px;
+    text-align: center;
+    background: #1a88cb;
+    color: #fff;
+}
+

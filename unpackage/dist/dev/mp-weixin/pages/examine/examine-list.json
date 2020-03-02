@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "通行证审核",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "uni-pagination": "/components/uni-pagination/uni-pagination"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "操作历史",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "uni-pagination": "/components/uni-pagination/uni-pagination",
+    "pouple-input": "/components/pouple-input"
+  }
+}

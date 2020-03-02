@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 新定义文字尺寸 */
+/* 新定义文字颜色 */
+/* 新定背景颜色 */
+.cu-dialog.data-v-1c8a71cf {
+  top: -150px;
+}
+.top-header view.data-v-1c8a71cf {
+  width: 100%;
+}
+.content-box.data-v-1c8a71cf {
+  padding: 20rpx;
+}
+.content-box textarea.data-v-1c8a71cf {
+    width: 100%;
+    text-align: left;
+    background: #eee;
+    padding: 10rpx;
+}
+.content-box .view-td.data-v-1c8a71cf {
+    width: 100%;
+    height: 150px;
+    text-align: left;
+    background: #eee;
+    padding: 10rpx;
+    color: #666;
+}
+.bottom-footer.data-v-1c8a71cf {
+  height: 50px;
+}
+.bottom-footer view.data-v-1c8a71cf {
+    width: 50%;
+    line-height: 50px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.bottom-footer .submit.data-v-1c8a71cf {
+    color: #0c68ff;
+    border-left: 1px solid #eee;
+}
+

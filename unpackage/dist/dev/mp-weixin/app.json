@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/manager",
+    "pages/EPass/qrcode",
+    "pages/EPass/EPassIndex",
+    "pages/EPass/EPassSubmitSuccess",
+    "pages/scancode/current-record",
+    "pages/scancode/person-info",
+    "pages/operation-history/operation-history",
+    "pages/scancode/person",
+    "pages/examine/examine-list-detail",
+    "pages/examine/examine-list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0079FE"
+  },
+  "permission": {},
+  "usingComponents": {
+    "message": "/components/message"
+  },
+  "sitemapLocation": "sitemap24.json"
+}

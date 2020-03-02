@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 新定义文字尺寸 */
+/* 新定义文字颜色 */
+/* 新定背景颜色 */
+page {
+  background: #fff;
+  height: 100%;
+}
+page .tab-box {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+page .tab-box view {
+      width: 50%;
+      position: relative;
+}
+page .tab-box .active::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 50%;
+      height: 3px;
+      bottom: 0;
+      left: 25%;
+      margin: auto;
+      background: #0079FE;
+}
+page .search-box {
+    padding: 10px 15px;
+    background: #EFEFEF;
+}
+page .search-box .input-box {
+      line-height: 32px;
+      font-size: 14px;
+      background: #e0e0e0;
+      padding: 0 10px;
+      width: 200px;
+      color: #666;
+}
+page .search-box .time-box {
+      height: 32px;
+      line-height: 32px;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      padding-left: 10px;
+      background: #fff;
+      margin-left: 30px;
+      background: #e0e0e0;
+      color: #666;
+}
+page .record-list {
+    padding: 20rpx 40rpx;
+    border-bottom: 1px solid #eee;
+}
+page .record-list:active {
+      background: #eee;
+}
+page .record-list:last-child {
+      margin-bottom: 100px;
+}
+page .record-list .title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      margin-bottom: 10px;
+}
+page .record-list .title .name {
+        font-size: 36rpx;
+}
+page .record-list .title view {
+        color: #999;
+}
+page .record-list .title .text {
+        color: #999;
+}
+page .record-list .title .mr {
+        margin-right: 5px;
+}
+page .none-data {
+    text-align: center;
+    margin-top: 100px;
+}
+
