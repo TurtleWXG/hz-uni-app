@@ -31,7 +31,7 @@
 
 
 	/* 半透明遮罩 */
-.CustomPopup.data-v-efa6e838 {
+.CustomPopup.data-v-670d23f2 {
         height: 100%;
         position: fixed;
         z-index: 1000;
@@ -42,7 +42,7 @@
         background: rgba(0, 0, 0, 0.6);
 }
     /* 隐藏 */
-.CustomPopupContent.data-v-efa6e838 {
+.CustomPopupContent.data-v-670d23f2 {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -59,7 +59,7 @@
         z-index: 3000;
 }
     /* 显示 */
-.CustomPopupContentShow.data-v-efa6e838 {
+.CustomPopupContentShow.data-v-670d23f2 {
         -webkit-transform: translateY(0);
                 transform: translateY(0);
 }

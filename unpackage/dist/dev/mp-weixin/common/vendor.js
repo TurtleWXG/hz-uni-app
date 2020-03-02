@@ -754,7 +754,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -2624,9 +2624,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 16:
-/*!**********************************************!*\
-  !*** E:/WeChatProject/hz-app/store/index.js ***!
-  \**********************************************/
+/*!**************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/store/index.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2801,9 +2801,9 @@ store;exports.default = _default;
 /***/ }),
 
 /***/ 17:
-/*!*************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/httpApi.js ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/httpApi.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2852,9 +2852,9 @@ module.exports = {
 /***/ }),
 
 /***/ 171:
-/*!*************************************************************!*\
-  !*** E:/WeChatProject/hz-app/components/uni-icons/icons.js ***!
-  \*************************************************************/
+/*!*****************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/components/uni-icons/icons.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2958,9 +2958,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 18:
-/*!*****************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/httpRequest.js ***!
-  \*****************************************************/
+/*!*********************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/httpRequest.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3067,9 +3067,9 @@ module.exports = {
 /***/ }),
 
 /***/ 19:
-/*!************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/config.js ***!
-  \************************************************/
+/*!****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/config.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8622,7 +8622,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8643,14 +8643,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8726,7 +8726,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -9122,9 +9122,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 20:
-/*!************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/system.js ***!
-  \************************************************/
+/*!****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/system.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9330,9 +9330,9 @@ title) {
 /***/ }),
 
 /***/ 21:
-/*!************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/custom.js ***!
-  \************************************************/
+/*!****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/custom.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9558,9 +9558,9 @@ module.exports = {
 /***/ }),
 
 /***/ 22:
-/*!**********************************************!*\
-  !*** E:/WeChatProject/hz-app/common/Json.js ***!
-  \**********************************************/
+/*!**************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/Json.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10228,9 +10228,9 @@ var cateList = [{
 /***/ }),
 
 /***/ 23:
-/*!************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/routes.js ***!
-  \************************************************/
+/*!****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/routes.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11120,9 +11120,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 4:
-/*!******************************************!*\
-  !*** E:/WeChatProject/hz-app/pages.json ***!
-  \******************************************/
+/*!**********************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages.json ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11132,9 +11132,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 49:
-/*!*************************************************!*\
-  !*** E:/WeChatProject/hz-app/common/uqrcode.js ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/uqrcode.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13407,9 +13407,9 @@ main();
 /***/ }),
 
 /***/ 50:
-/*!*********************************************!*\
-  !*** E:/WeChatProject/hz-app/common/req.js ***!
-  \*********************************************/
+/*!*************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/common/req.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13453,21 +13453,21 @@ module.exports = {"_from":"@dcloudio/uni-stat@alpha","_id":"@dcloudio/uni-stat@2
 /***/ }),
 
 /***/ 7:
-/*!***********************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages.json?{"type":"style"} ***!
-  \***********************************************************/
+/*!***************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages.json?{"type":"style"} ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff" }, "pages/index/manager": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff" }, "pages/EPass/qrcode": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff" }, "pages/EPass/EPassIndex": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff" }, "pages/EPass/EPassSubmitSuccess": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff" }, "pages/scancode/current-record": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行记录", "navigationBarBackgroundColor": "#fff" }, "pages/scancode/person-info": { "navigationBarTextStyle": "black", "navigationBarTitleText": "个人信息", "navigationBarBackgroundColor": "#fff" }, "pages/operation-history/operation-history": { "navigationBarTextStyle": "black", "navigationBarTitleText": "操作历史", "navigationBarBackgroundColor": "#fff" }, "pages/scancode/person": { "navigationBarTextStyle": "black", "navigationBarTitleText": "扫证放行", "navigationBarBackgroundColor": "#fff" }, "pages/examine/examine-list-detail": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行证审核", "navigationBarBackgroundColor": "#fff" }, "pages/examine/examine-list": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行证审核", "navigationBarBackgroundColor": "#fff" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarBackgroundColor": "#0079FE" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff", "usingComponents": { "confirm": "/components/confirm", "bottom-top-panel": "/components/bottom-top-panel" }, "usingAutoImportComponents": {} }, "pages/index/manager": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff", "usingComponents": { "confirm": "/components/confirm" }, "usingAutoImportComponents": {} }, "pages/EPass/qrcode": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/EPass/EPassIndex": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff", "usingComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination", "e-pass-picker": "/components/EPass-picker" }, "usingAutoImportComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" } }, "pages/EPass/EPassSubmitSuccess": { "navigationBarTextStyle": "black", "navigationBarTitleText": "海珠防疫通行证", "navigationBarBackgroundColor": "#fff", "usingComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" }, "usingAutoImportComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" } }, "pages/scancode/current-record": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行记录", "navigationBarBackgroundColor": "#fff", "usingComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" }, "usingAutoImportComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" } }, "pages/scancode/person-info": { "navigationBarTextStyle": "black", "navigationBarTitleText": "个人信息", "navigationBarBackgroundColor": "#fff", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/operation-history/operation-history": { "navigationBarTextStyle": "black", "navigationBarTitleText": "操作历史", "navigationBarBackgroundColor": "#fff", "usingComponents": { "pouple-input": "/components/pouple-input", "uni-pagination": "/components/uni-pagination/uni-pagination" }, "usingAutoImportComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" } }, "pages/scancode/person": { "navigationBarTextStyle": "black", "navigationBarTitleText": "扫证放行", "navigationBarBackgroundColor": "#fff", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/examine/examine-list-detail": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行证审核", "navigationBarBackgroundColor": "#fff", "usingComponents": { "pouple": "/components/pouple", "confirm": "/components/confirm" }, "usingAutoImportComponents": {} }, "pages/examine/examine-list": { "navigationBarTextStyle": "black", "navigationBarTitleText": "通行证审核", "navigationBarBackgroundColor": "#fff", "usingComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" }, "usingAutoImportComponents": { "uni-pagination": "/components/uni-pagination/uni-pagination" } }, "pages/scancode/person-address-detail": { "navigationBarTextStyle": "black", "navigationBarTitleText": "出入地址详情", "navigationBarBackgroundColor": "#fff", "usingComponents": {}, "usingAutoImportComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarBackgroundColor": "#0079FE" } };exports.default = _default;
 
 /***/ }),
 
 /***/ 8:
-/*!**********************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages.json?{"type":"stat"} ***!
-  \**********************************************************/
+/*!**************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages.json?{"type":"stat"} ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

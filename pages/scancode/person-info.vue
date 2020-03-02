@@ -23,12 +23,15 @@
 						<text>{{personnelInfo.lxdh | tp}}</text>
 					</view>
 					<view class="row-list">
-						<text class="label">居住村社:</text>
+						<text class="label">出入村社:</text>
 						<text>{{personnelInfo.jwhName | tp}}</text>
 					</view>
 					<view class="row-list">
-						<text class="label">居住详址:</text>
+						<text class="label">出入地址:</text>
 						<text>{{personnelInfo.address | tp}}</text>
+					</view>
+					<view class="row-list reverse" v-if="data.length > 1">
+						<view class="more" @click="showAddressDetail">更多出入地址 >></view>
 					</view>
 					<view class="row-list">
 						<text class="label">工作地址:</text>
@@ -90,7 +93,7 @@
 		data() {
 			return {
 				// 获取保存的个人通行数据
-				data : "",
+				data : [],
 				personnelInfo: ""
 			};
 		},
@@ -109,6 +112,7 @@
 				// 
 				if(result.appCode == 1){
 					this.data = result.data;
+					console.log()
 					this.personnelInfo = this.data[0]
 					console.log(this.personnelInfo)
 					// 保存用户登记数据到状态用户数据回显
@@ -122,10 +126,15 @@
 			navPerson(){
 				this.$routes.navTo('/pages/EPass/EPassIndex');
 			},
+			// 复制房东手机号码
 			copyPhone() {
 				wx.setClipboardData({
 				  data: this.personnelInfo.renterPhone
 				})
+			},
+			// 跳转页面 -- 查看全部出入地址信息
+			showAddressDetail() {
+				this.$routes.navTo('/pages/scancode/person-address-detail');
 			}
 			
 		}
@@ -138,8 +147,8 @@
 		height: 100%;
 		.person-info{
 			border-bottom:1px solid $b-t;
-			
 		}
+
 		.info{
 			padding: 40rpx 30rpx;
 			.title{
@@ -154,6 +163,13 @@
 					min-width: calc(4em + 15px);
 					color: $color6;
 				}
+				.more {
+					color: blue;
+				}
+			}
+			
+			.reverse {
+				flex-direction: row-reverse;
 			}
 		}
 		.fuzhi {

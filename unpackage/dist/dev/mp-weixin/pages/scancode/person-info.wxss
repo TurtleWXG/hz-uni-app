@@ -34,6 +34,15 @@ page .info .row-list .label {
         min-width: calc(4em + 15px);
         color: #666;
 }
+page .info .row-list .more {
+        color: blue;
+}
+page .info .reverse {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+              flex-direction: row-reverse;
+}
 page .fuzhi {
     font-size: 30rpx;
     margin-left: 15rpx;

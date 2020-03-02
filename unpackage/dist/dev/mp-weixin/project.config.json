@@ -22,7 +22,15 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
 			"current": -1,
 			"list": []
 		},
@@ -30,10 +38,10 @@
 			"current": 0,
 			"list": [
 				{
-					"name": "",
-					"path": "",
-					"query": "",
-					"id": 0
+					"id": -1,
+					"name": "pages/scancode/person-address-detail",
+					"pathName": "pages/scancode/person-address-detail",
+					"scene": null
 				}
 			]
 		}

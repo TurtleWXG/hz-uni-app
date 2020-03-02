@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/EPass/EPassIndex"],{
 
 /***/ 53:
-/*!*****************************************************************************!*\
-  !*** E:/WeChatProject/hz-app/main.js?{"page":"pages%2FEPass%2FEPassIndex"} ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/main.js?{"page":"pages%2FEPass%2FEPassIndex"} ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18,15 +18,15 @@ createPage(_EPassIndex.default);
 /***/ }),
 
 /***/ 54:
-/*!**********************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue ***!
-  \**********************************************************/
+/*!**************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EPassIndex.vue?vue&type=template&id=64b7a0e2& */ 55);
+/* harmony import */ var _EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EPassIndex.vue?vue&type=template&id=11c5438c& */ 55);
 /* harmony import */ var _EPassIndex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EPassIndex.vue?vue&type=script&lang=js& */ 57);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _EPassIndex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _EPassIndex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 /* harmony import */ var _EPassIndex_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EPassIndex.vue?vue&type=style&index=0&lang=scss& */ 59);
@@ -42,50 +42,50 @@ var renderjs
 
 var component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _EPassIndex_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
   null,
   false,
-  _EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["components"],
+  _EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["components"],
   renderjs
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "WeChatProject/hz-app/pages/EPass/EPassIndex.vue"
+component.options.__file = "WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
 /***/ 55:
-/*!*****************************************************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=template&id=64b7a0e2& ***!
-  \*****************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=template&id=11c5438c& ***!
+  \*********************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./EPassIndex.vue?vue&type=template&id=64b7a0e2& */ 56);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./EPassIndex.vue?vue&type=template&id=11c5438c& */ 56);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_64b7a0e2___WEBPACK_IMPORTED_MODULE_0__["components"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_EPassIndex_vue_vue_type_template_id_11c5438c___WEBPACK_IMPORTED_MODULE_0__["components"]; });
 
 
 
 /***/ }),
 
 /***/ 56:
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=template&id=64b7a0e2& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=template&id=11c5438c& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -113,9 +113,9 @@ render._withStripped = true
 /***/ }),
 
 /***/ 57:
-/*!***********************************************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
+/*!***************************************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -129,14 +129,252 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 58:
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 30));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -369,7 +607,7 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
 
   data: function data() {
     return {
-      jg: "", //选择籍贯绑定变量
+      jg: '', //选择籍贯绑定变量
 
       // checkbox是否租客 默认false
       isCheckZuke: false,
@@ -397,7 +635,7 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       // |返穗交通工具下拉数据集合
       // +--------------------
       vehicleList: ['大巴', '火车', '自驾', '飞机', '其他'],
-      vehicle: "", //反穗交通提交字段
+      vehicle: '', //反穗交通提交字段
       vehicleIndex: -1, //下拉下标
 
       // 切换modal显示
@@ -407,14 +645,14 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       jzDropList: [],
       jzList: [],
       jzCode: '',
-      jzName: "",
+      jzName: '',
       jzIndex: -1,
 
       // 居委会下拉框
       jwhDropList: [],
       jwhList: [],
       jwhCode: '',
-      jwhName: "",
+      jwhName: '',
       jwhIndex: -1,
 
       // 街路巷参数
@@ -449,13 +687,14 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       status: '', //分页名字状态，用于判断当前分页显示的什么地址数据
 
       // 登记数据
-      registerData: "",
+      registerData: '',
 
       // 授权对象
       sqdxIndex: -1,
       sqdx: -1,
       sqdxName: '',
-      sqdxList: [{
+      sqdxList: [
+      {
         value: 1,
         name: '出租屋租客' },
 
@@ -478,7 +717,7 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       // 数据回显
       this.dataDisplay(registerData);
     } else {
-      this.registerData = "";
+      this.registerData = '';
     }
     // 初始加载街镇
     this.getDropJz();
@@ -501,54 +740,66 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       var data = e.detail.value;
       console.log(data);
       if (this.$custom.isEmpty(data.xm)) {
-        this.$refs['Message'].error("请输入姓名");
+        this.$refs['Message'].error('请输入姓名');
         return false;
-      };
+      }
       if (this.$custom.isEmpty(data.zjhm)) {
-        this.$refs['Message'].error("请输入身份证号");
+        this.$refs['Message'].error('请输入身份证号');
         return false;
-      };
-      if (/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(data.zjhm) === false) {
-        this.$refs['Message'].error("身份证输入不合法");
+      }
+      if (
+      /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(data.zjhm) === false)
+      {
+        this.$refs['Message'].error('身份证输入不合法');
         return false;
-      };
+      }
       if (this.$custom.isEmpty(data.jg)) {
-        this.$refs['Message'].error("请选择籍贯");
+        this.$refs['Message'].error('请选择籍贯');
         return false;
-      };
+      }
       if (this.$custom.isEmpty(data.lxdh)) {
-        this.$refs['Message'].error("请输入联系电话");
+        this.$refs['Message'].error('请输入联系电话');
         return false;
-      };
-      if (!(/^1[3|4|5|6|7|8|9]\d{9}$/.test(data.lxdh) || /^0\d{2,3}-?\d{7,8}$/.test(data.lxdh))) {
-        this.$refs['Message'].error("请输入正确的联系电话");
+      }
+      if (
+      !(
+      /^1[3|4|5|6|7|8|9]\d{9}$/.test(data.lxdh) ||
+      /^0\d{2,3}-?\d{7,8}$/.test(data.lxdh)))
+
+      {
+        this.$refs['Message'].error('请输入正确的联系电话');
         return false;
-      };
+      }
       //如果是租客 1租客  0 不是租客
       if (data.isTenant == 1) {
         if (data.renterName == '') {
-          this.$refs['Message'].error("请输入房东姓名");
+          this.$refs['Message'].error('请输入房东姓名');
           return false;
-        };
+        }
         if (data.renterPhone == '') {
-          this.$refs['Message'].error("请输入房东电话");
+          this.$refs['Message'].error('请输入房东电话');
           return false;
-        };
-        if (!(/^1[3|4|5|6|7|8|9]\d{9}$/.test(data.renterPhone) || /^0\d{2,3}-?\d{7,8}$/.test(data.renterPhone) ||
-        /^(0\d{2,3}\-)?([2-9]\d{6,7})+(\-\d{1,6})?$/.test(data.renterPhone))) {
-          this.$refs['Message'].error("请输入正确的房东电话");
+        }
+        if (
+        !(
+        /^1[3|4|5|6|7|8|9]\d{9}$/.test(data.renterPhone) ||
+        /^0\d{2,3}-?\d{7,8}$/.test(data.renterPhone) ||
+        /^(0\d{2,3}\-)?([2-9]\d{6,7})+(\-\d{1,6})?$/.test(data.renterPhone)))
+
+        {
+          this.$refs['Message'].error('请输入正确的房东电话');
           return false;
-        };
+        }
       }
 
       if (this.$custom.isEmpty(this.jzCode)) {
-        this.$refs['Message'].error("请选择街镇");
+        this.$refs['Message'].error('请选择街镇');
         return false;
-      };
+      }
       if (this.$custom.isEmpty(this.jwhCode)) {
-        this.$refs['Message'].error("请选择居委会");
+        this.$refs['Message'].error('请选择居委会');
         return false;
-      };
+      }
       // 如果没有选择居住详址
       if (!this.isHomeAddress) {
         data.jddm = this.jddm;
@@ -560,48 +811,47 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
         data.zhid = this.mpid;
         data.fhid = this.tao;
         if (this.$custom.isEmpty(this.jddm)) {
-          this.$refs['Message'].error("请选择街路巷");
+          this.$refs['Message'].error('请选择街路巷');
           return false;
-        };
+        }
         if (this.$custom.isEmpty(this.mph)) {
-          this.$refs['Message'].error("请选择门牌号");
+          this.$refs['Message'].error('请选择门牌号');
           return false;
-        };
+        }
         if (this.$custom.isEmpty(this.taoName)) {
-          this.$refs['Message'].error("请选择单元");
+          this.$refs['Message'].error('请选择单元');
           return false;
-        };
+        }
       } else {
         if (this.$custom.isEmpty(data.selfCompiledAddress)) {
-          this.$refs['Message'].error("请填写居住详址");
+          this.$refs['Message'].error('请填写居住详址');
           return false;
-        };
+        }
       }
       if (this.$custom.isEmpty(this.sqdx)) {
-        this.$refs['Message'].error("请选授权对象");
+        this.$refs['Message'].error('请选授权对象');
         return false;
-      };
+      }
       // 如果没有勾选一直在穗,就验证   1在穗  0不在穗
       if (data.alwaysInGz == 0) {
         if (this.$custom.isEmpty(this.date)) {
-          this.$refs['Message'].error("请选择返穗日期");
+          this.$refs['Message'].error('请选择返穗日期');
           return false;
-        };
+        }
         if (this.$custom.isEmpty(data.departAddress)) {
-          this.$refs['Message'].error("请输入出发地");
+          this.$refs['Message'].error('请输入出发地');
           return false;
-        };
+        }
         if (this.$custom.isEmpty(data.vehicle)) {
-          this.$refs['Message'].error("请选择返穗交通工具");
+          this.$refs['Message'].error('请选择返穗交通工具');
           return false;
-        };
+        }
       } else {
         // 清空反穗日期
-        data.returnTime = "";
+        data.returnTime = '';
       }
       // 证件号码转大写
       data.zjhm = data.zjhm.toUpperCase();
-
 
       // openid
       data.openId = this.$store.state.openId;
@@ -611,15 +861,15 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
       _req.default.http('save', data, 'post').then(function (data) {
         uni.hideLoading();
         if (data.appCode == 1) {
-          _this.$refs['Message'].success("登记成功");
+          _this.$refs['Message'].success('登记成功');
           // 保存openid到状态
           _this.$store.dispatch('refreshRegisterStatus', 1);
           var timeout = setTimeout(function () {
             // 如果是管理员
             if (_this.$store.state.userType == 1) {
-              _this.$routes.redTo("/pages/index/manager");
+              _this.$routes.redTo('/pages/index/manager');
             } else {
-              _this.$routes.redTo("/pages/index/index");
+              _this.$routes.redTo('/pages/index/index');
             }
             clearTimeout(timeout);
           }, 2000);
@@ -689,12 +939,10 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
                   this.jzList = result.data;
                 }case 4:case "end":return _context.stop();}}}, _callee, this);}));function getDropJz() {return _getDropJz.apply(this, arguments);}return getDropJz;}(),
 
-
     // 获取居委会下拉街镇
     getDropJwh: function () {var _getDropJwh = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2() {var result, resultDropList;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:_context2.next = 2;return (
-
                   this.$request.post(this.$api.getJwh, {
-                    "jz": this.jzCode }));case 2:result = _context2.sent;
+                    jz: this.jzCode }));case 2:result = _context2.sent;
 
                 if (result.appCode == 1) {
                   resultDropList = [];
@@ -807,7 +1055,7 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
     // 搜索街路巷地址
     searchJddm: function searchJddm() {
       if (this.$custom.isEmpty(this.jzCode)) {
-        this.$refs['Message'].error("请选择街镇");
+        this.$refs['Message'].error('请选择街镇');
         return false;
       }
       // 重置分页参数
@@ -865,14 +1113,14 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
                   uni.hideLoading();
                   // 判断是否有数据，点击下一页时会判断
                   this.canFetch = true;
-                };
+                }
                 // 显示modal
-                this.modalName = 'viewModal';case 12:case "end":return _context4.stop();}}}, _callee4, this);}));function loadMp() {return _loadMp.apply(this, arguments);}return loadMp;}(),
+                this.modalName = 'viewModal';case 11:case "end":return _context4.stop();}}}, _callee4, this);}));function loadMp() {return _loadMp.apply(this, arguments);}return loadMp;}(),
 
     // 搜索门牌号地址
     searchDong: function searchDong() {
       if (this.$custom.isEmpty(this.jddm)) {
-        this.$refs['Message'].error("请先选择街路巷");
+        this.$refs['Message'].error('请先选择街路巷');
         return false;
       }
       // 重置分页参数
@@ -896,13 +1144,13 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
                   this.jddmList = result.dataInfo || [];
                   uni.hideLoading();
                   this.canFetch = true;
-                };
-                this.modalName = 'viewModal';case 13:case "end":return _context5.stop();}}}, _callee5, this);}));function loadDong() {return _loadDong.apply(this, arguments);}return loadDong;}(),
+                }
+                this.modalName = 'viewModal';case 12:case "end":return _context5.stop();}}}, _callee5, this);}));function loadDong() {return _loadDong.apply(this, arguments);}return loadDong;}(),
 
     // 搜索单元地址
     searchTao: function searchTao() {
       if (this.$custom.isEmpty(this.dong)) {
-        this.$refs['Message'].error("请先选择门牌号");
+        this.$refs['Message'].error('请先选择门牌号');
         return false;
       }
       // 重置分页参数
@@ -925,8 +1173,8 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
                   this.jddmList = result.dataInfo || [];
                   uni.hideLoading();
                   this.canFetch = true;
-                };
-                this.modalName = 'viewModal';case 12:case "end":return _context6.stop();}}}, _callee6, this);}));function loadTao() {return _loadTao.apply(this, arguments);}return loadTao;}(),
+                }
+                this.modalName = 'viewModal';case 11:case "end":return _context6.stop();}}}, _callee6, this);}));function loadTao() {return _loadTao.apply(this, arguments);}return loadTao;}(),
 
     // 获取来穗的人员信息, 传入人员的身份证
     getPersonByZjhm: function () {var _getPersonByZjhm = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee7() {var _ref, data, appCode, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, _step$value, index, elem;return _regenerator.default.wrap(function _callee7$(_context7) {while (1) {switch (_context7.prev = _context7.next) {case 0:
@@ -934,11 +1182,11 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
                   title: '匹配数据中',
                   mask: true });_context7.next = 3;return (
 
+                  this.$request.post(
+                  this.$api.getPersonByZjhm,
+                  {
+                    zjhm: this.zjhm }));case 3:_ref = _context7.sent;data = _ref.data;appCode = _ref.appCode;
 
-
-
-                  this.$request.post(this.$api.getPersonByZjhm, {
-                    "zjhm": this.zjhm }));case 3:_ref = _context7.sent;data = _ref.data;appCode = _ref.appCode;
 
                 uni.hideLoading();if (!(
                 appCode == 1)) {_context7.next = 38;break;}if (!(
@@ -983,7 +1231,6 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
         // 单元
         if (this.status == 'tao') this.loadTao();
       }
-
     },
 
     //隐藏modal
@@ -1066,7 +1313,6 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
           this.sqdxName = this.sqdxList[dropIndex].name;
           break;}
 
-
     },
     //---------------下拉框事件结束------------
 
@@ -1103,9 +1349,9 @@ var _req = _interopRequireDefault(__webpack_require__(/*! @/common/req.js */ 50)
 /***/ }),
 
 /***/ 59:
-/*!********************************************************************************************!*\
-  !*** E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=style&index=0&lang=scss& ***!
-  \********************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1119,9 +1365,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 60:
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!./node_modules/css-loader??ref--8-oneOf-1-2!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-app/pages/EPass/EPassIndex.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!./node_modules/css-loader??ref--8-oneOf-1-2!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/WeChatProject/hz-uni-app/pages/EPass/EPassIndex.vue?vue&type=style&index=0&lang=scss& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

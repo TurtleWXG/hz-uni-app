@@ -8,7 +8,7 @@
 /* 新定义文字尺寸 */
 /* 新定义文字颜色 */
 /* 新定背景颜色 */
-.uni-pagination.data-v-677d0385 {
+.uni-pagination.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -26,7 +26,7 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.uni-pagination__btns.data-v-677d0385 {
+.uni-pagination__btns.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -44,7 +44,7 @@
   -webkit-flex-direction: row;
           flex-direction: row;
 }
-.uni-pagination__btn.data-v-677d0385 {
+.uni-pagination__btn.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -69,7 +69,7 @@
   border-style: solid;
   border-color: #c8c7cc;
 }
-.uni-pagination__child-btn.data-v-677d0385 {
+.uni-pagination__child-btn.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -87,7 +87,7 @@
           align-items: center;
   text-align: center;
 }
-.uni-pagination__num.data-v-677d0385 {
+.uni-pagination__num.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -109,7 +109,7 @@
   font-size: 28rpx;
   color: #333;
 }
-.uni-pagination__num-current.data-v-677d0385 {
+.uni-pagination__num-current.data-v-2c01f242 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -118,17 +118,17 @@
   -webkit-flex-direction: row;
           flex-direction: row;
 }
-.uni-pagination__num-current-text.data-v-677d0385 {
+.uni-pagination__num-current-text.data-v-2c01f242 {
   font-size: 15px;
 }
-.uni-pagination--enabled.data-v-677d0385 {
+.uni-pagination--enabled.data-v-2c01f242 {
   color: #333333;
   opacity: 1;
 }
-.uni-pagination--disabled.data-v-677d0385 {
+.uni-pagination--disabled.data-v-2c01f242 {
   opacity: 0.3;
 }
-.uni-pagination--hover.data-v-677d0385 {
+.uni-pagination--hover.data-v-2c01f242 {
   color: rgba(0, 0, 0, 0.6);
   background-color: #f1f1f1;
 }

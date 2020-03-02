@@ -127,7 +127,7 @@ page .DrawerPage .nav .cu-item.cur {
   position: relative;
 }
 page .DrawerPage .nav .cu-item.cur::after {
-  content: "";
+  content: '';
   width: 10rpx;
   height: 10rpx;
   background-color: currentColor;
@@ -146,9 +146,9 @@ page .DrawerPage .cu-bar.tabbar .action {
 page .search-input {
   background-color: #fff;
   text-align: 2;
-  padding: .5rem;
-  margin: .8rem;
-  border-radius: .5rem;
+  padding: 0.5rem;
+  margin: 0.8rem;
+  border-radius: 0.5rem;
   height: unset;
 }
 

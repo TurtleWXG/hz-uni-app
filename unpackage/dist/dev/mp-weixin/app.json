@@ -10,7 +10,8 @@
     "pages/operation-history/operation-history",
     "pages/scancode/person",
     "pages/examine/examine-list-detail",
-    "pages/examine/examine-list"
+    "pages/examine/examine-list",
+    "pages/scancode/person-address-detail"
   ],
   "subPackages": [],
   "window": {
@@ -20,6 +21,5 @@
   "permission": {},
   "usingComponents": {
     "message": "/components/message"
-  },
-  "sitemapLocation": "sitemap24.json"
+  }
 }

@@ -94,6 +94,14 @@
 				"navigationBarTitleText": "通行证审核",
 				"navigationBarBackgroundColor": "#fff"
 			}
+		},
+		{
+			"path": "pages/scancode/person-address-detail",//通行证审核
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "出入地址详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
 		}
     ],
 	"globalStyle": {

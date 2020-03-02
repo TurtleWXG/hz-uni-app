@@ -95,9 +95,6 @@
 			// 初始判断是否登记
 			this.isRegister();
 		},
-		onShow() {
-			console.log('加载了.')
-		},
  		methods: {
 			async isRegister(){
 				// 请求判断是否登记过
