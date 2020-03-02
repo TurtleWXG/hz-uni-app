@@ -33,7 +33,7 @@ module.exports = {
 	// +-------------------
 	// |用户相关接口
 	// +-------------------
-	getQCcode:"passReport/getQCcode",//获取用户二维码
+	getQCcode:"passLink/getQCcode",//获取用户二维码
 	getMyRegisterLog:"passReport/getMyRegisterLog",//用户通行记录
 	isAdmin:"passReport/isAdmin",//区分用户
 	getMyInfo:"passLink/getMyInfo",//获取个人信息
