@@ -1,8 +1,0 @@
-{
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "操作历史",
-  "navigationBarBackgroundColor": "#fff",
-  "usingComponents": {
-    "pouple-input": "/components/pouple-input"
-  }
-}
