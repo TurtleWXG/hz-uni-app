@@ -66,7 +66,8 @@
 					adminOpenId:this.$store.state.openId,
 					info:this.content,
 					limit : this.pageSize,
-					page : this.currentPage
+					page : this.currentPage,
+					checkStatus: '0'
 				}
 				
 				let result = await this.$request.post(this.$api.checkList,data);
@@ -160,6 +161,7 @@
 				background: #E0E0E0;
 				border-radius: 6rpx;
 				padding:0 10px;
+				margin-right: 5px;
 			}
 		}
 		// 审核盒子
@@ -204,7 +206,7 @@
 			left:0;
 			right: 0;
 			line-height: 50px;
-			padding-bottom: 10px;
+			// padding-bottom: 10px;
 			color: #fff;
 			box-shadow: 3px 3px 4px rgba(0, 102, 204, 0.2);
 			view{

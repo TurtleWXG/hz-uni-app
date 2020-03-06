@@ -21,11 +21,11 @@ module.exports = {
 	// +-------------------
 	// |管理员相关接口
 	// +-------------------
-	isAdmittance:"passReport/isAdmittance",//扫码登记获取准入信息
-	edit:"passReport/edit",//获取审核人员信息
-	checkList:"passReport/checkList",//根据姓名证件号码查审核人员
-	passInApplet:"passReport/passInApplet",//审核出入证接口
-	register:"passReport/register",//扫码登记入门
+	isAdmittance:"passLink/isAdmittance",//扫码登记获取准入信息
+	edit:"passLink/infoDetail",//获取审核人员信息
+	checkList:"passLink/getCheckList",//根据姓名证件号码查审核人员
+	passInApplet:"passLink/passInApplet",//审核出入证接口
+	register:"passLink/register",//扫码登记入门
 	getRegisterLog:"passReport/getRegisterLog",//管理员操作放行记录
 	getCheckLog:"passReport/getCheckLog",//管理员操作审核记录
 	
