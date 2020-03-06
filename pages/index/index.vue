@@ -30,8 +30,8 @@
 			<view class="list-box"  @click="navPersonZJ">
 				<image src="../../static/wd.png"></image>
 				<view>
-					<view class="title">我的通行证</view>
-					<view class="grey">查看我的通行证</view>
+					<view class="title">我的穗康码（海珠）</view>
+					<view class="grey">查看我的穗康码（海珠）</view>
 				</view>
 			</view>
 			<view class="list-box" @click="navPersonInfo">
@@ -89,7 +89,7 @@
 				// 默认不显示登记按钮
 				register:false,
 				// 申请通行证
-				registerBtnName:"申请通行证"
+				registerBtnName:"申请穗康码（海珠）"
 			};
 		},
 		onLoad() {
@@ -186,16 +186,16 @@
 						
 						//checkStatus  1代表登记过，但是审核不通过，需要重新登记
 						if(result.data.checkStatus == 1){
-							this.registerBtnName = "重新申请通行证";
+							this.registerBtnName = "申请多个穗康码（海珠）";
 							this.register = true;
 						}else{
-							this.registerBtnName = "申请通行证";
+							this.registerBtnName = "申请穗康码（海珠）";
 							this.register = false;
 						}
 					}else{
 						/// -1未登记
 						this.register = true;
-						this.registerBtnName = "申请通行证";
+						this.registerBtnName = "申请穗康码（海珠）";
 						// 保存用户登记数据到状态
 						this.$store.dispatch('refreshRegisterData',"");
 					}
