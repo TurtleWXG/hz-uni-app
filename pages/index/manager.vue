@@ -36,8 +36,8 @@
 			<view class="list-box"  @click="navPersonZJ">
 				<image src="../../static/wd.png"></image>
 				<view>
-					<view class="title">我的通行证</view>
-					<view class="grey">查询我的通行证</view>
+					<view class="title">我的穗康码（海珠）</view>
+					<view class="grey">查询我的穗康码（海珠）</view>
 				</view>
 			</view>
 			<view class="list-box" @click.stop="navExitRecord">
@@ -81,7 +81,7 @@
 				// 默认不显示登记按钮 false => 2.0 开放一人多地址, 需开放一直注册, 修改为 true
 				register:true,
 				// 申请通行证
-				registerBtnName:"申请通行证",
+				registerBtnName:"申请穗康码（海珠）",
 				btnList:[],//按钮数据集合
 				imgSuffix:".png",//后缀
 				imgPrefix:"../../static/" //前缀
@@ -108,9 +108,9 @@
 					// 2.0
 					// 一人多证
 					if (result.data.length >= 1) {
-						this.registerBtnName = "申请多个通行证";
+						this.registerBtnName = "申请多个穗康码（海珠）";
 					} else {
-						this.registerBtnName = "申请通行证";
+						this.registerBtnName = "申请穗康码（海珠）";
 					}
 					
 					// 1.0
@@ -125,7 +125,7 @@
 				}else{
 					/// -1未登记
 					// this.register = true;
-					this.registerBtnName = "申请通行证";
+					this.registerBtnName = "申请穗康码（海珠）";
 					// 保存用户登记数据到状态
 					this.$store.dispatch('refreshRegisterData',"");
 				}

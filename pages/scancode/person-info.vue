@@ -27,10 +27,14 @@
 						<text>{{personnelInfo.jwhName | tp}}</text>
 					</view>
 					<view class="row-list">
+						<text class="label">地址类型:</text>
+						<text>{{personnelInfo.addressType | tp}}</text>
+					</view>
+					<view class="row-list">
 						<text class="label">出入地址:</text>
 						<text>{{personnelInfo.address | tp}}</text>
 					</view>
-					<view class="row-list reverse" v-if="data.length > 1">
+					<view class="row-list reverse" v-if="data.length > 0">
 						<view class="more" @click="showAddressDetail">更多出入地址 >></view>
 					</view>
 					<view class="row-list">
@@ -39,7 +43,7 @@
 					</view>
 					<view class="row-list">
 						<text class="label">身份:</text>
-						<text>{{personnelInfo.isTenant == '0' ? "业主" : (personnelInfo.isTenant == '1' ? "租客" : "") | tp}}</text>
+						<text>{{personnelInfo.isTenant == 0 ? "业主" : (personnelInfo.isTenant == 1 ? "租客" : "") | tp}}</text>
 					</view>
 					<view class="row-list" v-if="personnelInfo.renterName">
 						<text class="label">房东姓名:</text>

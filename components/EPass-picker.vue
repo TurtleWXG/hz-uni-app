@@ -24,34 +24,36 @@
 			};
 		},
 		props: {
-			mode: String,	// picker 的类型
-			name: String,	// 调用的类型
-			ClearBtnFlag: Boolean,	// 显隐清空按钮
-			echo: String,	// 数据回显
+			mode: String, // picker 的类型
+			name: String, // 调用的类型
+			ClearBtnFlag: Boolean, // 显隐清空按钮
+			echo: String, // 数据回显
 		},
 		watch: {
 			echo(val) {
 				// val => 北京市, 北京市, 朝阳区 <String>
 				// 传入值, 用于回显
-				this.textFlag = true
-				this.ChangeArray = val.split(',')
+				if (val.length !== 0) {
+					this.textFlag = true
+					this.ChangeArray = val.split(',')
+				}
 			}
 		},
 		methods: {
 			bindPickerChange(e) {
 				this.textFlag = true
 				this.ChangeArray = e.detail.value,
-				this.changePicker()
+					this.changePicker()
 			},
 			clearCFDAddress() {
 				// 切换隐藏内容
 				this.textFlag = false
-				this.ChangeArray = ""
+				this.ChangeArray = []
 				this.changePicker()
 			},
 			changePicker() {
 				this.$emit('changePicker', {
-					ChangeArray: this.ChangeArray, 
+					ChangeArray: this.ChangeArray,
 					name: this.name
 				})
 			}
@@ -60,9 +62,9 @@
 </script>
 
 <style lang="scss">
-
 	.container {
 		display: flex;
+
 		button {
 			margin-top: 19rpx;
 			margin-left: 5rpx;

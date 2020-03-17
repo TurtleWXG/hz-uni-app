@@ -23,11 +23,15 @@
 						<text>{{data.lxdh | tp}}</text>
 					</view>
 					<view class="row-list">
-						<text class="label">居住村社:</text>
+						<text class="label">出入村社:</text>
 						<text>{{data.jwhName | tp}}</text>
 					</view>
 					<view class="row-list">
-						<text class="label">居住详址:</text>
+						<text class="label">地址类型:</text>
+						<text>{{data.addressType | tp}}</text>
+					</view>
+					<view class="row-list">
+						<text class="label">出入地址:</text>
 						<text>{{data.address | tp}}</text>
 					</view>
 					<view class="row-list">
@@ -36,7 +40,7 @@
 					</view>
 					<view class="row-list">
 						<text class="label">身份:</text>
-						<text>{{data.isTenant == '0' ? "业主" : (data.isTenant == '1' ? "租客" : "") | tp}}</text>
+						<text>{{data.isTenant == 0? "业主" : (data.isTenant == 1 ? "租客" : "") | tp}}</text>
 					</view>
 					<view class="row-list" v-if="data.renterName">
 						<text class="label">房东姓名:</text>
@@ -64,7 +68,7 @@
 					</view>
 					<view class="row-list">
 						<text class="label" style="padding-right:8px;">来穗比对结果:</text>
-						<text style="color: rgb(251,54,9);">{{lsVSdj | tp}}</text>
+						<text :style="'color:' + lsVSdj.color ">{{lsVSdj.value | tp}}</text>
 					</view>
 				</view>
 			</view>
@@ -126,7 +130,17 @@
 				// 来穗登记地址
 				lsAddress:"",
 				// 来穗比对结果提示
-				vsStatus:["未在来穗系统登记","来穗登记地址与用户提交地址不一致","来穗登记地址与用户申请地址一致"],
+				// vsStatus:["未在来穗系统登记","来穗登记地址与用户提交地址不一致","来穗登记地址与用户申请地址一致"],
+				vsStatus:[{
+					color: 'red',
+					value: '未在来穗系统登记'
+				}, {
+					color: 'red',
+					value: '来穗登记地址与用户提交地址不一致'
+				}, {
+					color: 'green',
+					value: '来穗登记地址与用户申请地址一致'
+				}],
 				// 来穗比对结果
 				lsVSdj:"",
 				// 默认审核列表页面跳过来
@@ -155,6 +169,7 @@
 					}else{
 						// 拼接居住证地址
 						this.lsAddress = this.lsData.xzq_dict+this.lsData.jz_dict+this.lsData.jwh_dict+this.lsData.jddm_dict+this.lsData.mpmc+this.lsData.dy;
+						this.lslxdh = this.lsData.lxdh
 						//比对登记信息 和 居住证信息
 						if(this.data.fhid == this.lsData.fhid){
 							// 来穗登记地址与用户申请地址一致
