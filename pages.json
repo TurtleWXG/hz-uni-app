@@ -103,7 +103,23 @@
 				"navigationBarBackgroundColor": "#fff"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/agreement/user-service-agreement",
+            "style": {
+            	"navigationBarTextStyle": "black",
+            	"navigationBarTitleText": "用户服务协议",
+            	"navigationBarBackgroundColor": "#fff"
+            }
+        }
+        ,{
+            "path" : "pages/agreement/privacy-policy",
+            "style": {
+            	"navigationBarTextStyle": "black",
+            	"navigationBarTitleText": "隐私政策",
+            	"navigationBarBackgroundColor": "#fff"
+            }
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white", //全局顶部文字颜色
 		// "navigationBarTitleText": "凤凰街",//全局顶部文字
